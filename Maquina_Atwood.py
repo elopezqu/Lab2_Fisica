@@ -14,3 +14,6 @@ if(m1 > m2):
   aceleracion = -((m1-m2)*gravedad)/(m1+m2)
   print("La aceleracion es: ",round(aceleracion,2),"m/s^2")
   print("La tension en la cuenda es: ",round((m2*gravedad+m2*aceleracion),2),"N")
+if(m1 == m2):
+  print("Los objetos no experimentan aceleracion")
+  print("La tension en la cuenda es: ",round((m2*gravedad),2),"N")
