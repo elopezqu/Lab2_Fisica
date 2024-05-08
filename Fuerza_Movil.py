@@ -5,3 +5,5 @@ masa = float(input("Masa(kg): "))
 veloInicial = float(input("Velocidad Iniciald(m/s):  "))
 veloFinal = float(input("Velocidad Final(m/s):  "))
 tiempo =  float(input("Tiempo(s): "))
+
+print("La fuerza que describe el movil es: ",masa*((veloFinal-veloInicial)/tiempo),"N")
